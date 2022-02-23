@@ -1,0 +1,3 @@
+/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles/SimpleCpp.dir
+/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles/edit_cache.dir
+/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles/rebuild_cache.dir
