@@ -3,13 +3,13 @@
 cmake_policy(SET CMP0009 NEW)
 
 # MY_SOURCES at CMakeLists.txt:19 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/src/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/*")
 set(OLD_GLOB
-  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/src/main.cpp"
-  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/src/pick-a-number.cpp"
-  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/src/pick-a-number.hpp"
+  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp"
+  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.hpp"
+  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles/cmake.verify_globs")
 endif()

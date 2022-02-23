@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp"
+}
+]

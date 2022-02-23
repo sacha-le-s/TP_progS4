@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.22.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main"
+CMAKE_SOURCE_DIR = "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build"
+CMAKE_BINARY_DIR = "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles" "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -113,7 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -129,6 +129,30 @@ SimpleCpp: cmake_check_build_system
 SimpleCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
 .PHONY : SimpleCpp/fast
+
+src/guess-the-number.o: src/guess-the-number.cpp.o
+.PHONY : src/guess-the-number.o
+
+# target to build an object file
+src/guess-the-number.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o
+.PHONY : src/guess-the-number.cpp.o
+
+src/guess-the-number.i: src/guess-the-number.cpp.i
+.PHONY : src/guess-the-number.i
+
+# target to preprocess a source file
+src/guess-the-number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.i
+.PHONY : src/guess-the-number.cpp.i
+
+src/guess-the-number.s: src/guess-the-number.cpp.s
+.PHONY : src/guess-the-number.s
+
+# target to generate assembly for a file
+src/guess-the-number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.s
+.PHONY : src/guess-the-number.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -154,30 +178,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/pick-a-number.o: src/pick-a-number.cpp.o
-.PHONY : src/pick-a-number.o
-
-# target to build an object file
-src/pick-a-number.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/pick-a-number.cpp.o
-.PHONY : src/pick-a-number.cpp.o
-
-src/pick-a-number.i: src/pick-a-number.cpp.i
-.PHONY : src/pick-a-number.i
-
-# target to preprocess a source file
-src/pick-a-number.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/pick-a-number.cpp.i
-.PHONY : src/pick-a-number.cpp.i
-
-src/pick-a-number.s: src/pick-a-number.cpp.s
-.PHONY : src/pick-a-number.s
-
-# target to generate assembly for a file
-src/pick-a-number.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/pick-a-number.cpp.s
-.PHONY : src/pick-a-number.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,12 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleCpp"
+	@echo "... src/guess-the-number.o"
+	@echo "... src/guess-the-number.i"
+	@echo "... src/guess-the-number.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/pick-a-number.o"
-	@echo "... src/pick-a-number.i"
-	@echo "... src/pick-a-number.s"
 .PHONY : help
 
 
@@ -204,7 +204,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/Simple-Cpp-Setup-main/build/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

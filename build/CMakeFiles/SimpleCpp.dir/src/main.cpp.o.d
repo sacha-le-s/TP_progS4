@@ -1,5 +1,6 @@
 CMakeFiles/SimpleCpp.dir/src/main.cpp.o: \
-  /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/Simple-Cpp-Setup-main/src/main.cpp \
+  /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/src/main.cpp \
+  /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/src/guess-the-number.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
