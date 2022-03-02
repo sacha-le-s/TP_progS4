@@ -7,6 +7,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/sachachouvin/Desktop/I
 set(OLD_GLOB
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.hpp"
+  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman.cpp"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

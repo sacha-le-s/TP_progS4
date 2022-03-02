@@ -28,6 +28,7 @@ int FindTheNumber() {
   std::cout << " Hey the goal is to find a mysterious integer between 0 and "
                "100 sooo... "
             << std::endl;
+
   while (answer != true) {
     int Guess = GetPlayersGuess();
     if (Guess == randomInt) {

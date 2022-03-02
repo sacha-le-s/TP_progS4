@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../bin/Debug/SimpleCpp.pdb"
   "CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o"
   "CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o.d"
+  "CMakeFiles/SimpleCpp.dir/src/hangman.cpp.o"
+  "CMakeFiles/SimpleCpp.dir/src/hangman.cpp.o.d"
   "CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
   "CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d"
 )
