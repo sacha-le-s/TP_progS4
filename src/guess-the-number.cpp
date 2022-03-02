@@ -15,22 +15,32 @@ int InitRandomInt() {
 }
 */
 
-int PlayersGuess() {
-  int Guess = 0;
+int GetPlayersGuess() {
+  int ChosenNumber = 0;
   std::cout << " What's your guess ? " << std::endl;
-  std::cin >> Guess;
-  return Guess;
+  std::cin >> ChosenNumber;
+  return ChosenNumber;
 }
 
 int FindTheNumber() {
+  bool answer = false;
   int randomInt = rand(0, 100);
   std::cout << " Hey the goal is to find a mysterious integer between 0 and "
                "100 sooo... "
             << std::endl;
-  while (PlayersGuess() != randomInt) {
-    std::cout << "BRRRRRRRR !!! ---Wrong---" << std::endl;
+  while (answer != true) {
+    int Guess = GetPlayersGuess();
+    if (Guess == randomInt) {
+      answer = true;
+    } else {
+      std::cout << "BRRRRRRRR !!! ---Wrong---" << std::endl;
+      if (Guess < randomInt) {
+        std::cout << "Hint : the number is greater ;)" << std::endl;
+      } else {
+        std::cout << "Hint : the number is smaller ;)" << std::endl;
+      }
+    }
   }
-  std::cout << "OH DEAR LORD :o ---You made it---" << std::endl;
-  std::cout << randomInt << std::endl;
+  std::cout << "OH DEAR LORD ---You made it---" << std::endl;
   return 0;
 }
