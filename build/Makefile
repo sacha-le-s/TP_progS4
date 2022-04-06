@@ -178,6 +178,30 @@ src/hangman.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman.cpp.s
 .PHONY : src/hangman.cpp.s
 
+src/hangman2.o: src/hangman2.cpp.o
+.PHONY : src/hangman2.o
+
+# target to build an object file
+src/hangman2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o
+.PHONY : src/hangman2.cpp.o
+
+src/hangman2.i: src/hangman2.cpp.i
+.PHONY : src/hangman2.i
+
+# target to preprocess a source file
+src/hangman2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.i
+.PHONY : src/hangman2.cpp.i
+
+src/hangman2.s: src/hangman2.cpp.s
+.PHONY : src/hangman2.s
+
+# target to generate assembly for a file
+src/hangman2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.s
+.PHONY : src/hangman2.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -217,6 +241,9 @@ help:
 	@echo "... src/hangman.o"
 	@echo "... src/hangman.i"
 	@echo "... src/hangman.s"
+	@echo "... src/hangman2.o"
+	@echo "... src/hangman2.i"
+	@echo "... src/hangman2.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
