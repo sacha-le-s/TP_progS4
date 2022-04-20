@@ -6,11 +6,6 @@
 },
 {
   "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
-  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/hangman.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman.cpp\"",
-  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman.cpp"
-},
-{
-  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
   "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp\"",
   "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp"
 },

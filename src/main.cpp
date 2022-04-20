@@ -1,7 +1,6 @@
-#include <guess-the-number.hpp>
-#include <hangman2.cpp>
+//#include <guess-the-number.hpp>
+#include <hangman2.hpp>
 #include <iostream>
-
 
 int main() {
   std::cout << "Hello World\n";

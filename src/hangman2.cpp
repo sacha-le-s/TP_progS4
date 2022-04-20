@@ -15,6 +15,22 @@ int rand2(int min, int max) {
   return distribution(generator);
 }
 
+const char *pick_a_word_to_guess();
+void show_number_of_lives(int number_of_lives);
+bool player_is_alive(int number_of_lives);
+bool player_has_won(const std::vector<bool> &letters_guessed);
+void show_word_to_guess_with_missing_letters(
+    const std::string &word, const std::vector<bool> &letters_guessed);
+bool word_contains(char letter, std::string_view word);
+void mark_as_guessed(char guessed_letter, std::vector<bool> &letters_guessed,
+                     std::string_view word_to_guess);
+void remove_one_life(int &lives_count);
+void show_congrats_message(std::string_view word_to_guess);
+void show_defeat_message(std::string_view word_to_guess);
+char get_char_from_user();
+bool word_to_guess_contains(char guess, std::string word);
+void play_hangman();
+
 // FREE FUNCTIONS
 
 const char *pick_a_word_to_guess() { return (wordsList[rand2(0, 9)]); }
@@ -28,6 +44,7 @@ void show_number_of_lives(int number_of_lives) {
     std::cout << "You have " << number_of_lives << "lives left !" << std::endl;
   }
 }
+
 // Je ne comprend pas pourquoi il me met qu'il
 // manque un ";" je ne vois pas où ça pourrait manquer
 
