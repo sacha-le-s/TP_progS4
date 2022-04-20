@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <list>
 #include <random>
@@ -32,4 +33,4 @@ std::string get_a_word(std::vector<std::string> list) {
   return list[randomPos];
 }
 
-void CheckTheLetter(char letter) {}
+// void CheckTheLetter(char letter) {}

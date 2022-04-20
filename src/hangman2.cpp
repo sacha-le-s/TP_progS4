@@ -17,7 +17,7 @@ int rand2(int min, int max) {
 
 // FREE FUNCTIONS
 
-const char *pick_a_random_word() { return (wordsList[rand2(0, 9)]); }
+const char *pick_a_word_to_guess() { return (wordsList[rand2(0, 9)]); }
 
 void show_number_of_lives(int number_of_lives) {
   if (number_of_lives == 1) {
@@ -41,7 +41,9 @@ bool player_is_alive(int number_of_lives) {
 
 bool player_has_won(const std::vector<bool> &letters_guessed) {
   int number_of_invalid_letters = 0;
-  for (int i = 0; i < size(letters_guessed); i++) {
+  int array_size = letters_guessed.size();
+  // Si j'utilise letter_guessed.size() dans le for ça me met une erreur :(
+  for (int i = 0; i < array_size; i++) {
     if (letters_guessed[i] == false) {
       number_of_invalid_letters += 1;
     }
@@ -56,7 +58,8 @@ bool player_has_won(const std::vector<bool> &letters_guessed) {
 void show_word_to_guess_with_missing_letters(
     const std::string &word, const std::vector<bool> &letters_guessed) {
   std::string word_shown = "";
-  for (int i = 0; i < size(letters_guessed); i++) {
+  int array_size = letters_guessed.size();
+  for (int i = 0; i < array_size; i++) {
     if (letters_guessed[i] == false) {
       word_shown + "_";
     } else {
@@ -68,7 +71,8 @@ void show_word_to_guess_with_missing_letters(
 }
 
 bool word_contains(char letter, std::string_view word) {
-  for (int i = 0; i < size(word); i++) {
+  int array_size = word.size();
+  for (int i = 0; i < array_size; i++) {
     if (word[i] == letter) {
       return true;
     }
@@ -78,10 +82,11 @@ bool word_contains(char letter, std::string_view word) {
 
 void mark_as_guessed(char guessed_letter, std::vector<bool> &letters_guessed,
                      std::string_view word_to_guess) {
+  int string_length = word_to_guess.length();
   if (word_contains(guessed_letter, word_to_guess) ==
       true) // On vérifie d'abord si la lettre est dans le mot
   {
-    for (int i = 0; i < size(word_to_guess); i++) {
+    for (int i = 0; i < string_length; i++) {
       if (guessed_letter == word_to_guess[i]) {
         letters_guessed[i] = true;
       }
@@ -106,23 +111,48 @@ void show_defeat_message(std::string_view word_to_guess) {
             << std::endl;
 }
 
-void play_hangman() {
-  /* ______À RÉARRANGER POUR QUE ÇA FONCTIONNE______
+char get_char_from_user() {
+  char guess[1] = {};
+  std::cout << " What's your guess ? " << std::endl;
+  std::cin >> guess;
+  return guess[0];
+}
 
-  pick_a_word_to_guess();
-  while (player_is_alive() && !player_has_won()) {
-  show_number_of_lives();
-  show_word_to_guess_with_missing_letters();
-  const auto guess = get_char_from_user();
-  if (word_to_guess_contains(guess)) {
-      mark_as_guessed(guess);
-  } else {
-      remove_one_life();
+bool word_to_guess_contains(char guess, std::string word) {
+  int string_length = word.length();
+  for (int i = 0; i < string_length; i++) {
+    if (word[i] == guess) {
+      return true;
+    }
   }
+  return false;
+}
+
+void play_hangman() {
+  /* ______À RÉARRANGER POUR QUE ÇA FONCTIONNE______ */
+
+  std::string word = pick_a_word_to_guess();
+  int word_length = word.length();
+  int lives_count = 10;
+  std::vector<bool> letters_guessed = {};
+  for (int i = 0; i < word_length; i++) {
+    letters_guessed.push_back(false);
   }
-  if (player_has_won()) {
-  show_congrats_message();
+
+  while (player_is_alive(lives_count) && !player_has_won(letters_guessed)) {
+
+    show_number_of_lives(lives_count);
+    show_word_to_guess_with_missing_letters(word, letters_guessed);
+    const auto guess = get_char_from_user();
+    if (word_to_guess_contains(guess, word)) {
+      mark_as_guessed(guess, letters_guessed, word);
+    } else {
+      remove_one_life(lives_count);
+    }
+  }
+  if (player_has_won(letters_guessed)) {
+    show_congrats_message(word);
   } else {
-  show_defeat_message();
-  } */
+    show_defeat_message(word);
+  }
 }
