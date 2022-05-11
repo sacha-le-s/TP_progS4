@@ -318,6 +318,30 @@ ImGui/fast:
 	$(MAKE) $(MAKESILENT) -f p6/third-party/imgui/CMakeFiles/ImGui.dir/build.make p6/third-party/imgui/CMakeFiles/ImGui.dir/build
 .PHONY : ImGui/fast
 
+src/NoughtsAndCrosses.o: src/NoughtsAndCrosses.cpp.o
+.PHONY : src/NoughtsAndCrosses.o
+
+# target to build an object file
+src/NoughtsAndCrosses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o
+.PHONY : src/NoughtsAndCrosses.cpp.o
+
+src/NoughtsAndCrosses.i: src/NoughtsAndCrosses.cpp.i
+.PHONY : src/NoughtsAndCrosses.i
+
+# target to preprocess a source file
+src/NoughtsAndCrosses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.i
+.PHONY : src/NoughtsAndCrosses.cpp.i
+
+src/NoughtsAndCrosses.s: src/NoughtsAndCrosses.cpp.s
+.PHONY : src/NoughtsAndCrosses.s
+
+# target to generate assembly for a file
+src/NoughtsAndCrosses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.s
+.PHONY : src/NoughtsAndCrosses.cpp.s
+
 src/guess-the-number.o: src/guess-the-number.cpp.o
 .PHONY : src/guess-the-number.o
 
@@ -390,6 +414,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main2.o: src/main2.cpp.o
+.PHONY : src/main2.o
+
+# target to build an object file
+src/main2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main2.cpp.o
+.PHONY : src/main2.cpp.o
+
+src/main2.i: src/main2.cpp.i
+.PHONY : src/main2.i
+
+# target to preprocess a source file
+src/main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main2.cpp.i
+.PHONY : src/main2.cpp.i
+
+src/main2.s: src/main2.cpp.s
+.PHONY : src/main2.s
+
+# target to generate assembly for a file
+src/main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main2.cpp.s
+.PHONY : src/main2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -414,6 +462,9 @@ help:
 	@echo "... img"
 	@echo "... p6"
 	@echo "... stb_image"
+	@echo "... src/NoughtsAndCrosses.o"
+	@echo "... src/NoughtsAndCrosses.i"
+	@echo "... src/NoughtsAndCrosses.s"
 	@echo "... src/guess-the-number.o"
 	@echo "... src/guess-the-number.i"
 	@echo "... src/guess-the-number.s"
@@ -423,6 +474,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/main2.o"
+	@echo "... src/main2.i"
+	@echo "... src/main2.s"
 .PHONY : help
 
 

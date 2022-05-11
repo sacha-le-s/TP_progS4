@@ -372,12 +372,11 @@ p6/CMakeFiles/p6.dir/src/Context.cpp.o: \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/third-party/glpp-extended/include/glpp/../../src/Texture1D.h \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/third-party/glpp-extended/include/glpp/../../src/Texture3D.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
-  /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/Canvas.h \
-  /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/ImageCommon.h \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/Color.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/Image.h \
+  /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/ImageCommon.h \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/Key.h \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/MouseButton.h \
   /Users/sachachouvin/Desktop/IMAC/IMAC\ 2/POO\ S4/p6/src/MouseDrag.h \

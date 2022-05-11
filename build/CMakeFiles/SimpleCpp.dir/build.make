@@ -69,10 +69,24 @@ include CMakeFiles/SimpleCpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SimpleCpp.dir/flags.make
 
+CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
+CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o: ../src/NoughtsAndCrosses.cpp
+CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/NoughtsAndCrosses.cpp"
+
+CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/NoughtsAndCrosses.cpp" > CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.i
+
+CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/NoughtsAndCrosses.cpp" -o CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.s
+
 CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
 CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o: ../src/guess-the-number.cpp
 CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp"
 
 CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.s: cmake_force
 CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
 CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o: ../src/hangman2.cpp
 CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp"
 
 CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.s: cmake_force
 CMakeFiles/SimpleCpp.dir/src/main.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
 CMakeFiles/SimpleCpp.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/SimpleCpp.dir/src/main.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/main.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp"
 
 CMakeFiles/SimpleCpp.dir/src/main.cpp.i: cmake_force
@@ -111,18 +125,36 @@ CMakeFiles/SimpleCpp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp" -o CMakeFiles/SimpleCpp.dir/src/main.cpp.s
 
+CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
+CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: ../src/main2.cpp
+CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleCpp.dir/src/main2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/main2.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/main2.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/main2.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp"
+
+CMakeFiles/SimpleCpp.dir/src/main2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleCpp.dir/src/main2.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp" > CMakeFiles/SimpleCpp.dir/src/main2.cpp.i
+
+CMakeFiles/SimpleCpp.dir/src/main2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/main2.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp" -o CMakeFiles/SimpleCpp.dir/src/main2.cpp.s
+
 # Object files for target SimpleCpp
 SimpleCpp_OBJECTS = \
+"CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o" \
 "CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o" \
 "CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o" \
-"CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
+"CMakeFiles/SimpleCpp.dir/src/main.cpp.o" \
+"CMakeFiles/SimpleCpp.dir/src/main2.cpp.o"
 
 # External object files for target SimpleCpp
 SimpleCpp_EXTERNAL_OBJECTS =
 
+../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/NoughtsAndCrosses.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main.cpp.o
+../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main2.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/build.make
 ../bin/Debug/SimpleCpp: p6/libp6.a
 ../bin/Debug/SimpleCpp: p6/third-party/glpp-extended/libglpp-extended.a
@@ -134,7 +166,7 @@ SimpleCpp_EXTERNAL_OBJECTS =
 ../bin/Debug/SimpleCpp: p6/third-party/imgui/libImGui.a
 ../bin/Debug/SimpleCpp: p6/third-party/glfw/src/libglfw3.a
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/Debug/SimpleCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/Debug/SimpleCpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleCpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
