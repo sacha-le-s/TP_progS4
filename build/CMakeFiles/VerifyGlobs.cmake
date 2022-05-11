@@ -13,7 +13,7 @@ set(OLD_GLOB
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.hpp"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp"
-  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp"
+  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main3.cpp"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/rand.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

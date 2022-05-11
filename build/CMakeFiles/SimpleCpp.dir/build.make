@@ -125,19 +125,19 @@ CMakeFiles/SimpleCpp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp" -o CMakeFiles/SimpleCpp.dir/src/main.cpp.s
 
-CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
-CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: ../src/main2.cpp
-CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleCpp.dir/src/main2.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/main2.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/main2.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/main2.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp"
+CMakeFiles/SimpleCpp.dir/src/main3.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
+CMakeFiles/SimpleCpp.dir/src/main3.cpp.o: ../src/main3.cpp
+CMakeFiles/SimpleCpp.dir/src/main3.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleCpp.dir/src/main3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/main3.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/main3.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/main3.cpp.o -c "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main3.cpp"
 
-CMakeFiles/SimpleCpp.dir/src/main2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleCpp.dir/src/main2.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp" > CMakeFiles/SimpleCpp.dir/src/main2.cpp.i
+CMakeFiles/SimpleCpp.dir/src/main3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleCpp.dir/src/main3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main3.cpp" > CMakeFiles/SimpleCpp.dir/src/main3.cpp.i
 
-CMakeFiles/SimpleCpp.dir/src/main2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/main2.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp" -o CMakeFiles/SimpleCpp.dir/src/main2.cpp.s
+CMakeFiles/SimpleCpp.dir/src/main3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/main3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main3.cpp" -o CMakeFiles/SimpleCpp.dir/src/main3.cpp.s
 
 # Object files for target SimpleCpp
 SimpleCpp_OBJECTS = \
@@ -145,7 +145,7 @@ SimpleCpp_OBJECTS = \
 "CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o" \
 "CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o" \
 "CMakeFiles/SimpleCpp.dir/src/main.cpp.o" \
-"CMakeFiles/SimpleCpp.dir/src/main2.cpp.o"
+"CMakeFiles/SimpleCpp.dir/src/main3.cpp.o"
 
 # External object files for target SimpleCpp
 SimpleCpp_EXTERNAL_OBJECTS =
@@ -154,7 +154,7 @@ SimpleCpp_EXTERNAL_OBJECTS =
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main.cpp.o
-../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main2.cpp.o
+../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main3.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/build.make
 ../bin/Debug/SimpleCpp: p6/libp6.a
 ../bin/Debug/SimpleCpp: p6/third-party/glpp-extended/libglpp-extended.a

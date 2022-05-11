@@ -931,6 +931,7 @@ CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o: ../src/hangman2.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
 
 CMakeFiles/SimpleCpp.dir/src/main.cpp.o: ../src/main.cpp \
+  ../src/hangman2.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -1392,10 +1393,8 @@ CMakeFiles/SimpleCpp.dir/src/main.cpp.o: ../src/main.cpp \
   ../p6/src/NamedColor.h \
   ../p6/src/math.h
 
-CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: ../src/main2.cpp
+CMakeFiles/SimpleCpp.dir/src/main3.cpp.o: ../src/main3.cpp
 
-
-../src/main2.cpp:
 
 ../src/main.cpp:
 
@@ -1722,6 +1721,8 @@ CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: ../src/main2.cpp
 ../p6/third-party/glpp-extended/lib/glpp/src/glpp/Enums/Wrap.h:
 
 ../p6/third-party/glpp-extended/lib/glm/glm/detail/type_vec3.hpp:
+
+../src/hangman2.hpp:
 
 ../p6/third-party/glpp-extended/lib/glpp/src/glpp/Enums/TexelDataType.h:
 
@@ -2168,6 +2169,8 @@ CMakeFiles/SimpleCpp.dir/src/main2.cpp.o: ../src/main2.cpp
 ../p6/third-party/glpp-extended/lib/glm/glm/detail/type_mat2x4.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h:
+
+../src/main3.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib:
 

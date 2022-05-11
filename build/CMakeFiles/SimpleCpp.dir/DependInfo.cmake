@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp" "CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o.d"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp" "CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o.d"
   "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp" "CMakeFiles/SimpleCpp.dir/src/main.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d"
-  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main2.cpp" "CMakeFiles/SimpleCpp.dir/src/main2.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/main2.cpp.o.d"
+  "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main3.cpp" "CMakeFiles/SimpleCpp.dir/src/main3.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/main3.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o.d"
   "CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
   "CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d"
-  "CMakeFiles/SimpleCpp.dir/src/main2.cpp.o"
-  "CMakeFiles/SimpleCpp.dir/src/main2.cpp.o.d"
+  "CMakeFiles/SimpleCpp.dir/src/main3.cpp.o"
+  "CMakeFiles/SimpleCpp.dir/src/main3.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

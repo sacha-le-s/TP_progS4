@@ -414,29 +414,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/main2.o: src/main2.cpp.o
-.PHONY : src/main2.o
+src/main3.o: src/main3.cpp.o
+.PHONY : src/main3.o
 
 # target to build an object file
-src/main2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main2.cpp.o
-.PHONY : src/main2.cpp.o
+src/main3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main3.cpp.o
+.PHONY : src/main3.cpp.o
 
-src/main2.i: src/main2.cpp.i
-.PHONY : src/main2.i
+src/main3.i: src/main3.cpp.i
+.PHONY : src/main3.i
 
 # target to preprocess a source file
-src/main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main2.cpp.i
-.PHONY : src/main2.cpp.i
+src/main3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main3.cpp.i
+.PHONY : src/main3.cpp.i
 
-src/main2.s: src/main2.cpp.s
-.PHONY : src/main2.s
+src/main3.s: src/main3.cpp.s
+.PHONY : src/main3.s
 
 # target to generate assembly for a file
-src/main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main2.cpp.s
-.PHONY : src/main2.cpp.s
+src/main3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main3.cpp.s
+.PHONY : src/main3.cpp.s
 
 # Help Target
 help:
@@ -474,9 +474,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/main2.o"
-	@echo "... src/main2.i"
-	@echo "... src/main2.s"
+	@echo "... src/main3.o"
+	@echo "... src/main3.i"
+	@echo "... src/main3.s"
 .PHONY : help
 
 
