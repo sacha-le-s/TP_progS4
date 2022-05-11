@@ -64,29 +64,232 @@ CMAKE_BINARY_DIR = "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build"
 
 # The main recursive "all" target.
 all: CMakeFiles/SimpleCpp.dir/all
+all: p6/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: p6/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/SimpleCpp.dir/clean
+clean: p6/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory p6
+
+# Recursive "all" directory target.
+p6/all: p6/CMakeFiles/p6.dir/all
+p6/all: p6/third-party/glpp-extended/all
+p6/all: p6/third-party/img/all
+p6/all: p6/third-party/op/all
+p6/all: p6/third-party/exe_path/all
+p6/all: p6/third-party/glfw/all
+p6/all: p6/third-party/imgui/all
+.PHONY : p6/all
+
+# Recursive "preinstall" directory target.
+p6/preinstall: p6/third-party/glpp-extended/preinstall
+p6/preinstall: p6/third-party/img/preinstall
+p6/preinstall: p6/third-party/op/preinstall
+p6/preinstall: p6/third-party/exe_path/preinstall
+p6/preinstall: p6/third-party/glfw/preinstall
+p6/preinstall: p6/third-party/imgui/preinstall
+.PHONY : p6/preinstall
+
+# Recursive "clean" directory target.
+p6/clean: p6/CMakeFiles/p6.dir/clean
+p6/clean: p6/third-party/glpp-extended/clean
+p6/clean: p6/third-party/img/clean
+p6/clean: p6/third-party/op/clean
+p6/clean: p6/third-party/exe_path/clean
+p6/clean: p6/third-party/glfw/clean
+p6/clean: p6/third-party/imgui/clean
+.PHONY : p6/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/exe_path
+
+# Recursive "all" directory target.
+p6/third-party/exe_path/all: p6/third-party/exe_path/CMakeFiles/exe_path.dir/all
+.PHONY : p6/third-party/exe_path/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/exe_path/preinstall:
+.PHONY : p6/third-party/exe_path/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/exe_path/clean: p6/third-party/exe_path/CMakeFiles/exe_path.dir/clean
+.PHONY : p6/third-party/exe_path/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/glfw
+
+# Recursive "all" directory target.
+p6/third-party/glfw/all: p6/third-party/glfw/src/all
+.PHONY : p6/third-party/glfw/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/glfw/preinstall: p6/third-party/glfw/src/preinstall
+.PHONY : p6/third-party/glfw/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/glfw/clean: p6/third-party/glfw/src/clean
+.PHONY : p6/third-party/glfw/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/glfw/src
+
+# Recursive "all" directory target.
+p6/third-party/glfw/src/all: p6/third-party/glfw/src/CMakeFiles/glfw.dir/all
+.PHONY : p6/third-party/glfw/src/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/glfw/src/preinstall:
+.PHONY : p6/third-party/glfw/src/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/glfw/src/clean: p6/third-party/glfw/src/CMakeFiles/glfw.dir/clean
+p6/third-party/glfw/src/clean: p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : p6/third-party/glfw/src/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/glpp-extended
+
+# Recursive "all" directory target.
+p6/third-party/glpp-extended/all: p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all
+p6/third-party/glpp-extended/all: p6/third-party/glpp-extended/lib/glpp/all
+p6/third-party/glpp-extended/all: p6/third-party/glpp-extended/lib/glm/all
+.PHONY : p6/third-party/glpp-extended/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/glpp-extended/preinstall: p6/third-party/glpp-extended/lib/glpp/preinstall
+p6/third-party/glpp-extended/preinstall: p6/third-party/glpp-extended/lib/glm/preinstall
+.PHONY : p6/third-party/glpp-extended/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/glpp-extended/clean: p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/clean
+p6/third-party/glpp-extended/clean: p6/third-party/glpp-extended/lib/glpp/clean
+p6/third-party/glpp-extended/clean: p6/third-party/glpp-extended/lib/glm/clean
+.PHONY : p6/third-party/glpp-extended/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/glpp-extended/lib/glm
+
+# Recursive "all" directory target.
+p6/third-party/glpp-extended/lib/glm/all: p6/third-party/glpp-extended/lib/glm/glm/all
+.PHONY : p6/third-party/glpp-extended/lib/glm/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/glpp-extended/lib/glm/preinstall: p6/third-party/glpp-extended/lib/glm/glm/preinstall
+.PHONY : p6/third-party/glpp-extended/lib/glm/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/glpp-extended/lib/glm/clean: p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/clean
+p6/third-party/glpp-extended/lib/glm/clean: p6/third-party/glpp-extended/lib/glm/glm/clean
+.PHONY : p6/third-party/glpp-extended/lib/glm/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/glpp-extended/lib/glm/glm
+
+# Recursive "all" directory target.
+p6/third-party/glpp-extended/lib/glm/glm/all:
+.PHONY : p6/third-party/glpp-extended/lib/glm/glm/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/glpp-extended/lib/glm/glm/preinstall:
+.PHONY : p6/third-party/glpp-extended/lib/glm/glm/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/glpp-extended/lib/glm/glm/clean:
+.PHONY : p6/third-party/glpp-extended/lib/glm/glm/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/glpp-extended/lib/glpp
+
+# Recursive "all" directory target.
+p6/third-party/glpp-extended/lib/glpp/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all
+p6/third-party/glpp-extended/lib/glpp/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+.PHONY : p6/third-party/glpp-extended/lib/glpp/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/glpp-extended/lib/glpp/preinstall:
+.PHONY : p6/third-party/glpp-extended/lib/glpp/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/glpp-extended/lib/glpp/clean: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/clean
+p6/third-party/glpp-extended/lib/glpp/clean: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/clean
+.PHONY : p6/third-party/glpp-extended/lib/glpp/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/img
+
+# Recursive "all" directory target.
+p6/third-party/img/all: p6/third-party/img/CMakeFiles/img.dir/all
+p6/third-party/img/all: p6/third-party/img/CMakeFiles/stb_image.dir/all
+.PHONY : p6/third-party/img/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/img/preinstall:
+.PHONY : p6/third-party/img/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/img/clean: p6/third-party/img/CMakeFiles/img.dir/clean
+p6/third-party/img/clean: p6/third-party/img/CMakeFiles/stb_image.dir/clean
+.PHONY : p6/third-party/img/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/imgui
+
+# Recursive "all" directory target.
+p6/third-party/imgui/all: p6/third-party/imgui/CMakeFiles/ImGui.dir/all
+.PHONY : p6/third-party/imgui/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/imgui/preinstall:
+.PHONY : p6/third-party/imgui/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/imgui/clean: p6/third-party/imgui/CMakeFiles/ImGui.dir/clean
+.PHONY : p6/third-party/imgui/clean
+
+#=============================================================================
+# Directory level rules for directory p6/third-party/op
+
+# Recursive "all" directory target.
+p6/third-party/op/all:
+.PHONY : p6/third-party/op/all
+
+# Recursive "preinstall" directory target.
+p6/third-party/op/preinstall:
+.PHONY : p6/third-party/op/preinstall
+
+# Recursive "clean" directory target.
+p6/third-party/op/clean:
+.PHONY : p6/third-party/op/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/SimpleCpp.dir
 
 # All Build rule for target.
-CMakeFiles/SimpleCpp.dir/all:
+CMakeFiles/SimpleCpp.dir/all: p6/CMakeFiles/p6.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/img/CMakeFiles/img.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/img/CMakeFiles/stb_image.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/exe_path/CMakeFiles/exe_path.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/SimpleCpp.dir/all: p6/third-party/imgui/CMakeFiles/ImGui.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=1,2,3,4 "Built target SimpleCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=10,11,12,13 "Built target SimpleCpp"
 .PHONY : CMakeFiles/SimpleCpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimpleCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 70
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimpleCpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
 .PHONY : CMakeFiles/SimpleCpp.dir/rule
@@ -99,6 +302,300 @@ SimpleCpp: CMakeFiles/SimpleCpp.dir/rule
 CMakeFiles/SimpleCpp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/clean
 .PHONY : CMakeFiles/SimpleCpp.dir/clean
+
+#=============================================================================
+# Target rules for target p6/CMakeFiles/p6.dir
+
+# All Build rule for target.
+p6/CMakeFiles/p6.dir/all: p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/img/CMakeFiles/img.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/img/CMakeFiles/stb_image.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/exe_path/CMakeFiles/exe_path.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/glfw/src/CMakeFiles/glfw.dir/all
+p6/CMakeFiles/p6.dir/all: p6/third-party/imgui/CMakeFiles/ImGui.dir/all
+	$(MAKE) $(MAKESILENT) -f p6/CMakeFiles/p6.dir/build.make p6/CMakeFiles/p6.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/CMakeFiles/p6.dir/build.make p6/CMakeFiles/p6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Built target p6"
+.PHONY : p6/CMakeFiles/p6.dir/all
+
+# Build rule for subdir invocation for target.
+p6/CMakeFiles/p6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 66
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/CMakeFiles/p6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/CMakeFiles/p6.dir/rule
+
+# Convenience name for target.
+p6: p6/CMakeFiles/p6.dir/rule
+.PHONY : p6
+
+# clean rule for target.
+p6/CMakeFiles/p6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/CMakeFiles/p6.dir/build.make p6/CMakeFiles/p6.dir/clean
+.PHONY : p6/CMakeFiles/p6.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir
+
+# All Build rule for target.
+p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all
+p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/build.make p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/build.make p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=47,48,49 "Built target glpp-extended"
+.PHONY : p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/rule
+
+# Convenience name for target.
+glpp-extended: p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/rule
+.PHONY : glpp-extended
+
+# clean rule for target.
+p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/build.make p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/clean
+.PHONY : p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir
+
+# All Build rule for target.
+p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=40,41,42,43,44,45,46 "Built target glpp"
+.PHONY : p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/rule
+
+# Convenience name for target.
+glpp: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/rule
+.PHONY : glpp
+
+# clean rule for target.
+p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/clean
+.PHONY : p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir
+
+# All Build rule for target.
+p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=16,17 "Built target glad"
+.PHONY : p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# clean rule for target.
+p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/clean
+.PHONY : p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir
+
+# All Build rule for target.
+p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/all:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/build.make p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/build.make p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num= "Built target uninstall"
+.PHONY : p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/rule
+
+# Convenience name for target.
+uninstall: p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/rule
+.PHONY : uninstall
+
+# clean rule for target.
+p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/build.make p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/clean
+.PHONY : p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/img/CMakeFiles/img.dir
+
+# All Build rule for target.
+p6/third-party/img/CMakeFiles/img.dir/all: p6/third-party/img/CMakeFiles/stb_image.dir/all
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/img.dir/build.make p6/third-party/img/CMakeFiles/img.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/img.dir/build.make p6/third-party/img/CMakeFiles/img.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=50,51,52 "Built target img"
+.PHONY : p6/third-party/img/CMakeFiles/img.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/img/CMakeFiles/img.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/img/CMakeFiles/img.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/img/CMakeFiles/img.dir/rule
+
+# Convenience name for target.
+img: p6/third-party/img/CMakeFiles/img.dir/rule
+.PHONY : img
+
+# clean rule for target.
+p6/third-party/img/CMakeFiles/img.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/img.dir/build.make p6/third-party/img/CMakeFiles/img.dir/clean
+.PHONY : p6/third-party/img/CMakeFiles/img.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/img/CMakeFiles/stb_image.dir
+
+# All Build rule for target.
+p6/third-party/img/CMakeFiles/stb_image.dir/all:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/stb_image.dir/build.make p6/third-party/img/CMakeFiles/stb_image.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/stb_image.dir/build.make p6/third-party/img/CMakeFiles/stb_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=68,69,70 "Built target stb_image"
+.PHONY : p6/third-party/img/CMakeFiles/stb_image.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/img/CMakeFiles/stb_image.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/img/CMakeFiles/stb_image.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/img/CMakeFiles/stb_image.dir/rule
+
+# Convenience name for target.
+stb_image: p6/third-party/img/CMakeFiles/stb_image.dir/rule
+.PHONY : stb_image
+
+# clean rule for target.
+p6/third-party/img/CMakeFiles/stb_image.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/stb_image.dir/build.make p6/third-party/img/CMakeFiles/stb_image.dir/clean
+.PHONY : p6/third-party/img/CMakeFiles/stb_image.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/exe_path/CMakeFiles/exe_path.dir
+
+# All Build rule for target.
+p6/third-party/exe_path/CMakeFiles/exe_path.dir/all:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/exe_path/CMakeFiles/exe_path.dir/build.make p6/third-party/exe_path/CMakeFiles/exe_path.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/exe_path/CMakeFiles/exe_path.dir/build.make p6/third-party/exe_path/CMakeFiles/exe_path.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=14,15 "Built target exe_path"
+.PHONY : p6/third-party/exe_path/CMakeFiles/exe_path.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/exe_path/CMakeFiles/exe_path.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/exe_path/CMakeFiles/exe_path.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/exe_path/CMakeFiles/exe_path.dir/rule
+
+# Convenience name for target.
+exe_path: p6/third-party/exe_path/CMakeFiles/exe_path.dir/rule
+.PHONY : exe_path
+
+# clean rule for target.
+p6/third-party/exe_path/CMakeFiles/exe_path.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/exe_path/CMakeFiles/exe_path.dir/build.make p6/third-party/exe_path/CMakeFiles/exe_path.dir/clean
+.PHONY : p6/third-party/exe_path/CMakeFiles/exe_path.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/glfw/src/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+p6/third-party/glfw/src/CMakeFiles/glfw.dir/all:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/glfw.dir/build.make p6/third-party/glfw/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/glfw.dir/build.make p6/third-party/glfw/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target glfw"
+.PHONY : p6/third-party/glfw/src/CMakeFiles/glfw.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/glfw/src/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/glfw/src/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: p6/third-party/glfw/src/CMakeFiles/glfw.dir/rule
+.PHONY : glfw
+
+# clean rule for target.
+p6/third-party/glfw/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/glfw.dir/build.make p6/third-party/glfw/src/CMakeFiles/glfw.dir/clean
+.PHONY : p6/third-party/glfw/src/CMakeFiles/glfw.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/glfw/src/CMakeFiles/update_mappings.dir
+
+# All Build rule for target.
+p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/all:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/build.make p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/build.make p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=71 "Built target update_mappings"
+.PHONY : p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/rule
+
+# Convenience name for target.
+update_mappings: p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/rule
+.PHONY : update_mappings
+
+# clean rule for target.
+p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/build.make p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/clean
+
+#=============================================================================
+# Target rules for target p6/third-party/imgui/CMakeFiles/ImGui.dir
+
+# All Build rule for target.
+p6/third-party/imgui/CMakeFiles/ImGui.dir/all: p6/third-party/glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f p6/third-party/imgui/CMakeFiles/ImGui.dir/build.make p6/third-party/imgui/CMakeFiles/ImGui.dir/depend
+	$(MAKE) $(MAKESILENT) -f p6/third-party/imgui/CMakeFiles/ImGui.dir/build.make p6/third-party/imgui/CMakeFiles/ImGui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target ImGui"
+.PHONY : p6/third-party/imgui/CMakeFiles/ImGui.dir/all
+
+# Build rule for subdir invocation for target.
+p6/third-party/imgui/CMakeFiles/ImGui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 31
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6/third-party/imgui/CMakeFiles/ImGui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" 0
+.PHONY : p6/third-party/imgui/CMakeFiles/ImGui.dir/rule
+
+# Convenience name for target.
+ImGui: p6/third-party/imgui/CMakeFiles/ImGui.dir/rule
+.PHONY : ImGui
+
+# clean rule for target.
+p6/third-party/imgui/CMakeFiles/ImGui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/imgui/CMakeFiles/ImGui.dir/build.make p6/third-party/imgui/CMakeFiles/ImGui.dir/clean
+.PHONY : p6/third-party/imgui/CMakeFiles/ImGui.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

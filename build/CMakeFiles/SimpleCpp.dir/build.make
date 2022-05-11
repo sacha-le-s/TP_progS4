@@ -124,6 +124,15 @@ SimpleCpp_EXTERNAL_OBJECTS =
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/build.make
+../bin/Debug/SimpleCpp: p6/libp6.a
+../bin/Debug/SimpleCpp: p6/third-party/glpp-extended/libglpp-extended.a
+../bin/Debug/SimpleCpp: p6/third-party/glpp-extended/lib/glpp/libglpp.a
+../bin/Debug/SimpleCpp: p6/third-party/glpp-extended/lib/glpp/libglad.a
+../bin/Debug/SimpleCpp: p6/third-party/img/libimg.a
+../bin/Debug/SimpleCpp: p6/third-party/img/libstb_image.a
+../bin/Debug/SimpleCpp: p6/third-party/exe_path/libexe_path.a
+../bin/Debug/SimpleCpp: p6/third-party/imgui/libImGui.a
+../bin/Debug/SimpleCpp: p6/third-party/glfw/src/libglfw3.a
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/Debug/SimpleCpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleCpp.dir/link.txt --verbose=$(VERBOSE)

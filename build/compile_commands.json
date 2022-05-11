@@ -1,17 +1,302 @@
 [
 {
   "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
-  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/guess-the-number.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp\"",
   "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/guess-the-number.cpp"
 },
 {
   "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
-  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/hangman2.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp\"",
   "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/hangman2.cpp"
 },
 {
   "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build",
-  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp\"",
   "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/src/main.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/Context.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Context.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Context.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/Shader.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Shader.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Shader.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/Canvas.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Canvas.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Canvas.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/Image.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Image.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Image.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/math.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/math.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/math.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/Transform2D.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Transform2D.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/Transform2D.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/ImGuiWrapper.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/ImGuiWrapper.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/ImGuiWrapper.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/UniqueGlfwWindow.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/UniqueGlfwWindow.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/UniqueGlfwWindow.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/Time/Clock.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/Time/Clock.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/Time/Clock.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/Time/Clock_FixedTimestep.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/Time/Clock_FixedTimestep.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/Time/Clock_FixedTimestep.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/Time/Clock_Realtime.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/Time/Clock_Realtime.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/Time/Clock_Realtime.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/RectRenderer.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/RectRenderer.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/RectRenderer.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/TriangleRenderer.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/TriangleRenderer.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/TriangleRenderer.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/op/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/p6.dir/src/details/TextRenderer.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/TextRenderer.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/src/details/TextRenderer.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp-extended.dir/src/Program.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/src/Program.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/src/Program.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glm\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp-extended.dir/src/RenderTarget.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/src/RenderTarget.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/src/RenderTarget.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/glad.dir/third-party/glad/src/glad.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/src/glad.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/src/glad.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang++ -DGLPP_SHOULD_CHECK_ERRORS -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp.dir/src/glpp/check_errors.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/check_errors.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/check_errors.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang++ -DGLPP_SHOULD_CHECK_ERRORS -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp.dir/src/glpp/Functions/Texture.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Texture.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Texture.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang++ -DGLPP_SHOULD_CHECK_ERRORS -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp.dir/src/glpp/Functions/Program.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Program.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Program.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang++ -DGLPP_SHOULD_CHECK_ERRORS -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp.dir/src/glpp/Functions/Framebuffer.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Framebuffer.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Framebuffer.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang++ -DGLPP_SHOULD_CHECK_ERRORS -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp.dir/src/glpp/Functions/Miscellaneous.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Miscellaneous.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/Functions/Miscellaneous.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glpp-extended/lib/glpp",
+  "command": "/usr/bin/clang++ -DGLPP_SHOULD_CHECK_ERRORS -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/third-party/glad/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/glpp.dir/src/glpp/internal/assert_is_bound.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/internal/assert_is_bound.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glpp-extended/lib/glpp/src/glpp/internal/assert_is_bound.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/img",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib/stb_image/stb_image.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib/stb_image/stb_image.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/img",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib/stb_image/stb_image_write.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib/stb_image/stb_image_write.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/img",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/img.dir/src/Save.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/src/Save.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/src/Save.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/img",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/lib\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/img.dir/src/Load.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/src/Load.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/img/src/Load.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/exe_path",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/exe_path.dir/src/exe_path.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/src/exe_path.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/exe_path/src/exe_path.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/context.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/context.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/context.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/init.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/init.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/init.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/input.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/input.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/input.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/monitor.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/monitor.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/monitor.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/platform.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/platform.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/platform.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/vulkan.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/vulkan.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/vulkan.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/window.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/window.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/window.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/egl_context.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/egl_context.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/egl_context.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/osmesa_context.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/osmesa_context.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/osmesa_context.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/null_init.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_init.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_init.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/null_monitor.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_monitor.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_monitor.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/null_window.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_window.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_window.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/null_joystick.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_joystick.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/null_joystick.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_time.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_time.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_module.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/posix_module.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/posix_module.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/posix_thread.c\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_init.m.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_init.m\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_joystick.m\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_monitor.m\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/cocoa_window.m.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_window.m\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_COCOA -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/glfw/src\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/nsgl_context.m.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/nsgl_context.m\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/imgui_demo.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_demo.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/imgui_draw.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_draw.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/imgui_tables.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_tables.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/imgui_widgets.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_widgets.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/imgui.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/misc/cpp/imgui_stdlib.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/misc/cpp/imgui_stdlib.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/misc/cpp/imgui_stdlib.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/backends/imgui_impl_glfw.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/backends/imgui_impl_glfw.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/p6/third-party/imgui",
+  "command": "/usr/bin/clang++  -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/.\" -I\"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/glfw/include\" -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/ImGui.dir/backends/imgui_impl_opengl3.cpp.o -c \"/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/backends/imgui_impl_opengl3.cpp\"",
+  "file": "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/p6/third-party/imgui/backends/imgui_impl_opengl3.cpp"
 }
 ]

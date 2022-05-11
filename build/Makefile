@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/Cellar/cmake/3.22.0/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/local/Cellar/cmake/3.22.0/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/Cellar/cmake/3.22.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/local/Cellar/cmake/3.22.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/Cellar/cmake/3.22.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/local/Cellar/cmake/3.22.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build/CMakeFiles" "/Users/sachachouvin/Desktop/IMAC/IMAC 2/POO S4/build//CMakeFiles/progress.marks"
@@ -129,6 +174,149 @@ SimpleCpp: cmake_check_build_system
 SimpleCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
 .PHONY : SimpleCpp/fast
+
+#=============================================================================
+# Target rules for targets named p6
+
+# Build rule for target.
+p6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p6
+.PHONY : p6
+
+# fast build rule for target.
+p6/fast:
+	$(MAKE) $(MAKESILENT) -f p6/CMakeFiles/p6.dir/build.make p6/CMakeFiles/p6.dir/build
+.PHONY : p6/fast
+
+#=============================================================================
+# Target rules for targets named glpp-extended
+
+# Build rule for target.
+glpp-extended: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glpp-extended
+.PHONY : glpp-extended
+
+# fast build rule for target.
+glpp-extended/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/build.make p6/third-party/glpp-extended/CMakeFiles/glpp-extended.dir/build
+.PHONY : glpp-extended/fast
+
+#=============================================================================
+# Target rules for targets named glpp
+
+# Build rule for target.
+glpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glpp
+.PHONY : glpp
+
+# fast build rule for target.
+glpp/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glpp.dir/build
+.PHONY : glpp/fast
+
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/build.make p6/third-party/glpp-extended/lib/glpp/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/build.make p6/third-party/glpp-extended/lib/glm/CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named img
+
+# Build rule for target.
+img: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 img
+.PHONY : img
+
+# fast build rule for target.
+img/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/img.dir/build.make p6/third-party/img/CMakeFiles/img.dir/build
+.PHONY : img/fast
+
+#=============================================================================
+# Target rules for targets named stb_image
+
+# Build rule for target.
+stb_image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stb_image
+.PHONY : stb_image
+
+# fast build rule for target.
+stb_image/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/img/CMakeFiles/stb_image.dir/build.make p6/third-party/img/CMakeFiles/stb_image.dir/build
+.PHONY : stb_image/fast
+
+#=============================================================================
+# Target rules for targets named exe_path
+
+# Build rule for target.
+exe_path: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exe_path
+.PHONY : exe_path
+
+# fast build rule for target.
+exe_path/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/exe_path/CMakeFiles/exe_path.dir/build.make p6/third-party/exe_path/CMakeFiles/exe_path.dir/build
+.PHONY : exe_path/fast
+
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/glfw.dir/build.make p6/third-party/glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
+
+#=============================================================================
+# Target rules for targets named update_mappings
+
+# Build rule for target.
+update_mappings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 update_mappings
+.PHONY : update_mappings
+
+# fast build rule for target.
+update_mappings/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/build.make p6/third-party/glfw/src/CMakeFiles/update_mappings.dir/build
+.PHONY : update_mappings/fast
+
+#=============================================================================
+# Target rules for targets named ImGui
+
+# Build rule for target.
+ImGui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGui
+.PHONY : ImGui
+
+# fast build rule for target.
+ImGui/fast:
+	$(MAKE) $(MAKESILENT) -f p6/third-party/imgui/CMakeFiles/ImGui.dir/build.make p6/third-party/imgui/CMakeFiles/ImGui.dir/build
+.PHONY : ImGui/fast
 
 src/guess-the-number.o: src/guess-the-number.cpp.o
 .PHONY : src/guess-the-number.o
@@ -209,8 +397,23 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... uninstall"
+	@echo "... update_mappings"
+	@echo "... ImGui"
 	@echo "... SimpleCpp"
+	@echo "... exe_path"
+	@echo "... glad"
+	@echo "... glfw"
+	@echo "... glpp"
+	@echo "... glpp-extended"
+	@echo "... img"
+	@echo "... p6"
+	@echo "... stb_image"
 	@echo "... src/guess-the-number.o"
 	@echo "... src/guess-the-number.i"
 	@echo "... src/guess-the-number.s"
