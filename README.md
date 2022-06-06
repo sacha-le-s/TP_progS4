@@ -1,3 +1,14 @@
+Coucou c'est le readme de Sacha
+
+Concernant les leçons je suis allé jusqu'au level 2 - split problems into small pieces, je compte garder le lien du site cependant
+étant donné que les cours sont super bien construits et je sens que j'ai évolué en programmation en grande partie grâce à ce que
+j'ai pu y lire, les astuces que j'ai retenues et aussi l'extension qui range le code tout seul <3
+
+
+
+
+
+
 # Simple-Cpp-Setup
 
 Welcome to this minimalist C++ project!
